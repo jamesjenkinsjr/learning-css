@@ -21,3 +21,28 @@ li {
     border: 2px solid silver;
     margin: 10px;
 }
+h1.bw-10 { 
+    border-width: 10px;
+}
+h1.bc-blk {
+    border-color: black;
+}
+h1.bs-dot {
+    border-style: dotted;
+}
+    /*color: chartreuse; 
+    background-color: tomato;
+    border: 10px dotted blue;*/
+h1.bd-tp-yw {    
+    border-top-color: yellow;
+} 
+h1.bd-lf-char {   
+    border-left-color: chartreuse;
+} 
+h1.bd-rg-ab {
+    border-right-color: aliceblue; 
+}
+h1.bd-bt-sm {
+    border-bottom-color: salmon;
+}
+    /*border-style: dotted;*/
