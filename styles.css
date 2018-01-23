@@ -1,1 +1,23 @@
 /* Actually styles */
+    
+p {
+    color: darksalmon;
+}
+div p {
+    color: black;
+    font-size: 22px;
+}
+ul {
+    background-color: black;
+    list-style-type: none;
+    border: 2px solid silver;
+    padding-left: 20%;
+}
+li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: silver;
+    border: 2px solid silver;
+    margin: 10px;
+}
