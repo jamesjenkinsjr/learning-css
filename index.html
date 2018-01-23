@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Learning CSS</title>
-</head>
-<body>
-    <!-- Inline styles-->
-    <!--Probably more difficult to maintain in large project-->
-    <!--Last ditch effort to get stuff styled-->
-    <h1 style="color: chartreuse; background-color: tomato;">Learning CSS</h1>
-    <h1 style="border: 10px dotted blue;">Also inline styles</h1>
-    <h1 style="border-width: 10px; 
-               border-top-color: yellow; 
-               border-left-color: chartreuse; 
-               border-bottom-color: salmon; 
-               border-right-color: aliceblue;
-               border-style: dotted;">Gaudy Border</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Learning CSS</title>
+        <style>
+            p {
+                color: darksalmon;
+            }
+            div p {
+                color: black;
+                font-size: 22px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Inline styles-->
+        <!--Probably more difficult to maintain in large project-->
+        <!--Last ditch effort to get stuff styled-->
+        <h1 style="color: chartreuse; background-color: tomato;">Learning CSS</h1>
+        <h1 style="border: 10px dotted blue;">Also inline styles</h1>
+        <h1 style="border-width: 10px; 
+                border-top-color: yellow; 
+                border-left-color: chartreuse; 
+                border-bottom-color: salmon; 
+                border-right-color: aliceblue;
+                border-style: dotted;">Gaudy Border</h1>
+        <!--Internal Styles-->
+        <!--Still page-specific styles, but easier to maintain than per element-->
+        <!--Easier to extract later-->
+        <p>I like cheese</p>
+        <div>
+            <p>I also like more cheese</p>
+            <p>I like burritos</p>
+        </div>
+        <ul>
+            <li>Gouda</li>
+            <li>Muenster</li>
+            <li>Gorgonzola</li>
+            <li>Brie</li>
+            <li>Monterey Jack w/ Jalapeno</li>
+        </ul>
+    </body>
 </html>
