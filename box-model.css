@@ -1,0 +1,18 @@
+div.inner {
+    background-color: yellow;
+    height: auto;
+    width: auto;
+    padding: 3rem;
+}
+div.middle {
+    background-color: red;
+    height: auto;
+    width: auto;
+    padding: 5rem;   
+}
+div.outer {
+    background-color: blue;
+    height: auto;
+    width: auto;
+    padding: 10rem;
+}
