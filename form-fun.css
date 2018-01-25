@@ -1,0 +1,48 @@
+.signup-form-contain {
+    display: table;
+    align-content: center;
+    margin: 0 auto;
+    width: 20rem;
+}
+.signup-h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.signup-field {
+    font-size: 18px;
+    font-weight: 700;
+    color: #e6ecf0;
+    margin: 0 auto;
+    width: 100%;
+    padding: .75rem 0rem .75rem .75rem;
+    align-content: left;
+    border-radius: 3px;
+    border: 1px solid #e6ecf0;
+    text-align: left;
+}
+.signup-field-checkbox {
+    margin: 0 auto;
+    display: inline;
+}
+.checkbox-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #66757f;
+    
+}
+.signup-field-contain {
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+}
+.signup-button {
+    background-color: #1da1f2; /* Twitter Blue */
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    margin: 0 auto;
+    padding: 1rem 8rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+}
