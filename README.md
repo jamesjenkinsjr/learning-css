@@ -12,3 +12,10 @@ Learning CSS 1/24
 3) nav-fun.css
 
 Create Twitter nav bar and mimic aesthetic
+
+Learning CSS1/24
+1) Link to photo-grid.html index
+2) photo-grid.html
+3) photo-grid.css (optional)
+
+Imgur grid clone
